@@ -1,7 +1,7 @@
 [context.production]
-  command = "npm run install && npm run build"
+  command = "npm install && npm run build"
   REACT_APP_ENV_VAR = "supersecret"
 
 [context.dev]
-  command = "cp netlify_headers public/_headers && npm run install && npm run build"
+  command = "cp netlify_headers public/_headers && npm install && npm run build"
   REACT_APP_ENV_VAR = "whateverdog"
