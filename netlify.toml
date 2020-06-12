@@ -4,4 +4,4 @@
 
 [context.dev]
   command = "cp netlify_headers public/_headers && npm run install && npm run build-dev"
-  REACT_APP_ENV_VAR = "whatever"
+  REACT_APP_ENV_VAR = "whateverdog"
