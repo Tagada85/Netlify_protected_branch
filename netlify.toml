@@ -1,3 +1,6 @@
+[build]
+  publish = "build"
+
 [context.production]
   command = "npm install && npm run build"
   REACT_APP_ENV_VAR = "supersecret"
